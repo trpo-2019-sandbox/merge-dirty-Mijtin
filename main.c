@@ -24,8 +24,20 @@ void print_array(int* arr, int size)
         printf("%d ", arr[i]);
     }
     printf("\n");
+<<<<<<< HEAD
+}
+||||||| merged common ancestors
+=======
 }
 
+int main()
+{
+    int arr[] = {3, 1, 4, 1, 5, 9, 2};
+
+    const int min = min_element(arr, N_ELEMENTS(arr));
+>>>>>>> develop
+
+<<<<<<< HEAD
 int main()
 {
     int arr[] = {3, 1, 4, 1, 5, 9, 2};
@@ -38,6 +50,10 @@ int main()
     printf("Min element: %d\n", min);
 =======
     print_array(arr, N_ELEMENTS(arr));
+||||||| merged common ancestors
+=======
+    print_array(arr, N_ELEMENTS(arr));
+>>>>>>> develop
     printf("Min element: %d\n", min);
 >>>>>>> develop
 
